@@ -1,0 +1,439 @@
+body {
+   
+    
+     margin-left: 0%;
+     color: body;
+     font-size: 21px;
+     font-family: Futura, sans-serif;
+     font-weight: 500;
+     
+     
+ }
+
+
+ 
+
+
+.container {
+     width: 80%;
+     margin: auto;
+ } 
+ 
+  
+
+ header {
+    color: #72CEE0;
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+ }
+
+ header::after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+
+ .logo {
+    float: left;
+    vertical-align: top;
+    margin-right: 8%;
+    height: auto;
+    width: auto;
+    max-height: 4%;
+    max-width: 9%;
+    cursor: pointer;    
+    margin-bottom: 1%;
+    mix-blend-mode: soft-light;
+    margin-top: 0.5%;
+
+    
+        filter: brightness(5);
+        
+    
+    
+    
+}
+ 
+
+ .cotainer nav {
+     float: right;
+    
+     
+ }
+ .container nav ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     
+ }
+ .container nav li{
+    display: inline-block;
+    margin-left: 3.5%;
+    padding-top: 2.5%;
+    position: relative;
+ }
+ .container nav ul li a{
+     color: black;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 15px;
+    text-shadow: white 0px 0px 10px;
+    font-style: bold;
+ }
+ .container nav ul li a :hover{
+     color: black;
+
+ 
+     
+ }
+ 
+ .container nav ul li a::before{
+     content: "";
+     display: block;
+     height: 8%;
+     width: 100%;
+     background-color: black;
+
+     position: absolute;
+     top: 0; 
+     width: 0%;
+     transition: all ease-in-out 200ms;
+ }
+ .container nav ul li a:hover::before{
+     width: 100%;
+ }
+ .container nav ul li .home:active {
+     color: rgb(209, 97, 97);
+ }
+
+ .container nav ul li .home:focus {
+     color: rgb(209, 97, 97);
+ }
+
+ .container nav ul li .home {
+
+     text-decoration-thickness: 5px;
+     color: rgb(219, 54, 4);
+     font-weight: bold;
+
+     font-size: 20px;
+
+
+ }
+
+ .Heading {
+
+    text-align: center;
+    background-color: rgb(233, 167, 126);
+    width: 500px;
+    height: 300px;
+
+    margin-bottom: 5%;
+    margin-top: 0%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-width: 59%;
+    border-color: transparent;
+    border-style: groove;
+    padding-top: 5%;
+
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-shadow: white 0px 0px 10px;
+    opacity: 20;
+   mix-blend-mode: hard-light;
+   border-top-left-radius: 50%;
+   border-top-right-radius:50%;
+   border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%
+
+
+    
+}
+
+
+ .profile nav {
+     float: left;
+    
+ }
+
+ .profile ul {
+     list-style: none;
+    margin-bottom: 15px;
+        margin-left: 0;
+        margin-right: auto;
+        margin-top: 10px;
+       
+    
+ }
+
+
+ .profile a {
+     display: inline-block;
+     position: relative;
+     size: 12px;
+     
+ }
+
+ .profile .social-icon {
+     width: 85px;
+     height: 85px;
+     background:black;
+     color: #ffffff;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+     border-radius: 50%;
+     border-style: solid;
+     text-decoration: none;
+     margin-bottom: auto;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 0;
+   
+     
+    
+ }
+ 
+ .profile .social-icon:hover{
+    color: lightskyblue;
+    background-color: #72CEE0;
+ }
+ .profile .social-icon2{
+    width: 85px;
+        height: 85px;
+        background: black;
+        color: #ffffff;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border-radius: 50%;
+        border-style: solid;
+        text-decoration: none;
+        margin: auto;
+ }
+ .profile .social-icon2:hover{
+     color: rgb(238, 148, 64);
+     background-color: rgb(238, 148, 64);
+ }
+ .aboutme {
+width: 85px;
+    height: 85px;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-style: none;
+    text-decoration: none;
+    margin: auto;
+ }
+ .aboutme img :hover{
+    color: white;
+    background-color: white;
+ }
+ .jumpup{
+    width: 35px;
+    height: 35px;
+    background: black;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border-style: solid;
+    text-decoration: none;
+    margin-top: 20%;
+    margin-left: 5%;
+
+ }
+
+
+ h1 img {
+     height: auto;
+     width: auto;
+     max-height: 85px;
+     max-width: 250px;
+ }
+
+ h1 span {
+    font-size: 16px;
+    font-weight: 510;
+    text-decoration: none;
+    line-height: 35px;
+
+ }
+ h1 span :link{
+     text-decoration: none;
+     
+ }
+ h1 span :visited{
+     text-decoration: none;
+     color: black;
+ }
+ h1 span a:hover{
+     text-decoration: underline;
+     
+ }
+ h1 span :active{
+     text-decoration: none;
+ }
+ em {
+     color: red;
+     font-style: normal;
+ }
+ 
+
+ img {
+     width: 200px;
+     border-radius: 45px;
+     margin-right: 10px;
+ }
+ 
+ .span {
+     border-color: black;
+     border-width: 5px;
+ }
+ .links{
+        text-align: right;
+        
+ }
+footer{
+    line-height: 2;
+    font-weight: 300;
+    font-size: .875rem;
+    margin-top: 1.25rem;
+    position: relative;
+    height: 100px;
+    margin-top: -20%;
+    margin-bottom: auto;
+    clear: both;
+    text-align: center;
+    text-shadow: white 0px 0px 10px;
+    margin-left: 1%;
+    margin-left: 8%;
+}
+footer a:link {
+    text-decoration: none;
+
+}
+
+footer a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+
+}
+
+footer a:active {
+    text-decoration: none;
+}
+
+#grayout {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+   
+}
+
+.popup {
+    position: fixed;
+    height: 40%;
+    width: 50%;
+    background-color: rgb(7, 7, 0);
+    left: 25%;
+    top: 25%;
+    margin-left: 10px;
+    overflow: hidden;
+    padding: 0.5rem;
+    color: white ;
+    transform: translate(-50%, -50%) scale();
+    transition: 200ms ease-in-out;
+    z-index: 2;
+    
+}
+.popup *::after, *::before{
+    box-sizing: border-box;
+}
+.popup .typed-text{
+    font-weight: normal;
+    color: rgb(250, 246, 250);
+}
+.popup .cursor{
+    display: inline-block;
+    width: 3px;
+    background-color: black;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+.cursor-typing{
+    animation: none;
+}
+
+
+@keyframes blink {
+    0%  {background-color: black;}
+    49% {background-color: black;}
+    50% {background-color: transparent;}
+    99% {background-color: transparent;}
+    100% {background-color: black;}
+}
+.popup .cursor-typing{
+    animation: none;
+}
+.popup .close-button{
+    float: right;
+    vertical-align: top;
+    height: 25px;
+
+}
+#overlay{
+    position: fixed;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+#overlay:active{
+    pointer-events: all;
+}
+#language1 {
+    position: absolute;
+    
+    left: 25%;
+    cursor: pointer;
+    
+}
+#language1:hover{
+    border-color: green;
+    border-width: 5px;
+}
+#language2 {
+    position: absolute;
+    
+    right: 25%;
+    cursor: pointer;
+}
+#language2:hover{
+    border-color: red;
+    border-width: 5px;
+}
+.close-button{
+    cursor: pointer;
+}
+
+
+
+ 
+ /* this is how you comment in CSS*/

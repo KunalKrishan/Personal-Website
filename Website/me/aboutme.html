@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Kunal Krishan, Computer Science">
+    <meta name="description" content="Hey this is Kunal, Welcome to my virtual abode...">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/contactme.css">
+</head>
+<script> function changeBg(){
+    
+    const images =[
+        
+        'url("../images/road.jpg")',
+        'url("../images/sunset.JPG")',
+        'url("../images/bird.jpg")',
+        
+
+
+    ]
+
+    const section = document.querySelector('header')
+    const bg = images[Math.floor(Math.random() * images.length)];
+    section.style.backgroundImage = bg;
+   
+}
+setInterval(changeBg, 1300)
+</script>
+<body>
+    <header>
+        <div class="container"> 
+            <a href="../mainpage.html" target="_blank"> <img src="../images/logo copy.jpg" alt="logo" class="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/Website/index2.html">Home</a></li>
+                    <li><a href="../me/resume.html" >Resume</a></li>
+                    <li><a class="aboutme" href="../me/aboutme.html">About me</a></li> 
+                    <li><a href="../me/experience.html">Experience</a></li>
+                    <li><a href="../me/projects.html">Projects</a></li>
+                    <li><a href="../me/involvement.html">Involvement</a></li>
+                    <li><a href="mailto:kunalkrishan786@gmail.com" target="_blank">Contact me</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+   
+   <h1>About me</h1>
+    <img class="pic" src="../images/kunal.JPG" alt="Picture">
+    <p>  Hi! I'm KUNAL KRISHAN (he/his) and I am a junior at Rutgers University, New Brunswick. I am majoring in Computer Science, with a minor in Psychology and English. I am on the track to graduate in 2023. My courses have helped me develop my coding skills with different coding languages. Currently I am looking for an internship for the summer of 2022. I have worked Data science internships, and with the growing age and quantity of data, it is confirmed that there is immense potential for opportunities and inventions in Data Storage. I am also part of RUHacks and other CS organizations on campus.<br><br>
+
+ 
+
+ 
+
+When I was looking into career options. I saw a pop up from Apple to pay for Data storage. Designing data storage software sounded exciting to me. The way technology is moving we are all dependent on data storage technology to store our life memories, for example the Google photos or Apple pictures backup. Most of us have already started paying Apple and Google for the data storage. With the growing age and quantity of data, it is confirmed that there is immense potential for opportunities and inventions in Data Storage. I am majoring in Computer Science, with a minor in Psychology and English. I am on the track to graduate in 2023. My courses have helped me develop my coding skills with different coding languages like Java, C, Python, SQL etc. </p>
+    
+    <center><a class="jumpup" href="#"> <ion-icon name="arrow-up-outline"></ion-icon></a></center>
+    <footer>
+
+    <p>Made by: Kunal Krishan | <a href="mailto:kunalkrishan786@gmail.com" target="_blank">kunalkrishan786@gmail.com</a> </p>
+</footer>
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
